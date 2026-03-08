@@ -5,7 +5,7 @@
 .c-casemodule + .c-casemodule {
   margin-top: calc(42 / 16 * 1rem);
 
-  @include breakpoint(large) {
+  @media (width >= 1024px) {
     margin-top: calc(60 / 16 * 1rem);
   }
 }

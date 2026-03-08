@@ -8,12 +8,12 @@
   padding-right: calc(18 / 16 * 1rem);
   max-width: 1480px;
 
-  @include breakpoint(medium) {
+  @media (width >= 760px) {
     padding-left: calc(36 / 16 * 1rem);
     padding-right: calc(36 / 16 * 1rem);
   }
 
-  @include breakpoint(xlarge) {
+  @media (width >= 1440px) {
     padding-left: calc(54 / 16 * 1rem);
     padding-right: calc(54 / 16 * 1rem);
   }

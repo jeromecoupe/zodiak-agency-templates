@@ -18,7 +18,7 @@
 .c-mobilemenu.is-open {
   display: block;
 
-  @include breakpoint(medium) {
+  @media (width >= 760px) {
     display: none;
   }
 }

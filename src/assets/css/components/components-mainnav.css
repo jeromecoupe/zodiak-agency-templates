@@ -13,7 +13,7 @@
   justify-content: flex-start;
   gap: calc(30 / 16 * 1rem);
 
-  @include breakpoint(xlarge) {
+  @media (width >= 1440px) {
     gap: calc(42 / 16 * 1rem);
   }
 }

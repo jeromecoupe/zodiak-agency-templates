@@ -11,7 +11,7 @@ body {
   background-color: var(--color-background);
   color: var(--color-text);
 
-  @include breakpoint(medium) {
+  @media (width >= 760px) {
     font-size: calc(18 / 16 * 1rem);
   }
 }
@@ -19,7 +19,7 @@ body {
 body.has-menu {
   overflow-y: hidden;
 
-  @include breakpoint(medium) {
+  @media (width >= 760px) {
     overflow-y: auto;
   }
 }

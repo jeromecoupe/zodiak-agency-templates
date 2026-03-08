@@ -13,7 +13,7 @@
   align-items: stretch;
   gap: calc(6 / 16 * 1rem);
 
-  @include breakpoint(large) {
+  @media (width >= 1024px) {
     gap: calc(3 / 16 * 1rem);
   }
 }

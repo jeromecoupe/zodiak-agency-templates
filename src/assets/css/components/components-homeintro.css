@@ -6,7 +6,7 @@
   display: grid;
   grid-template-columns: minmax(0, 1fr);
 
-  @include breakpoint(large) {
+  @media (width >= 1024px) {
     grid-template-columns: minmax(0, 54ch) minmax(0, 1fr);
     column-gap: var(--gutter);
   }
