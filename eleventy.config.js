@@ -1,4 +1,4 @@
-module.exports = function (eleventyConfig) {
+export default function (eleventyConfig) {
   // ignores
   eleventyConfig.ignores.add("./src/assets/**/*");
   eleventyConfig.watchIgnores.add("./src/assets/**/*");
@@ -14,13 +14,16 @@ module.exports = function (eleventyConfig) {
     port: 3000,
     watch: ["./dist/assets/js/**/*", "./dist/assets/css/**/*"],
   });
+}
 
-  // override base config
-  return {
-    dir: {
-      input: "src",
-      output: "./dist",
-      markdownTemplateEngine: "njk",
-    },
-  };
+export const config = {
+  dir: {
+    input: "src",
+    output: "dist",
+    includes: "_includes",
+    data: "_data",
+  },
+  templateFormats: ["njk", "md"],
+  htmlTemplateEngine: "njk",
+  markdownTemplateEngine: "njk",
 };

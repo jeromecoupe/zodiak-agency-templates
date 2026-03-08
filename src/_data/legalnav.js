@@ -1,4 +1,4 @@
-module.exports = [
+export default [
   {
     label: "Privacy policy",
     file: "privacy-policy.pdf",
