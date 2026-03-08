@@ -14,7 +14,7 @@
   margin-bottom: 0.75em;
   color: var(--color-text-invert);
 
-  @include breakpoint(large) {
+  @media (width >= 1024px) {
     line-height: 1.08;
   }
 }

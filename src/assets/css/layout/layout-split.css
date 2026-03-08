@@ -3,15 +3,17 @@
 --------------------------------- */
 
 .l-split {
+  --split-gutter: 18px;
+
   display: grid;
   grid-template-columns: minmax(0, 1fr);
 
-  @include breakpoint(medium) {
+  @media (width >= 760px) {
     grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
-    column-gap: var(--gutter);
+    column-gap: var(--split-gutter);
   }
 
-  @include breakpoint(xlarge) {
+  @media (width >= 1440px) {
     grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
   }
 }

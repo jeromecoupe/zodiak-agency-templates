@@ -6,12 +6,12 @@
   padding-top: calc(48 / 16 * 1rem);
   padding-bottom: calc(48 / 16 * 1rem);
 
-  @include breakpoint(medium) {
+  @media (width >= 760px) {
     padding-top: calc(72 / 16 * 1rem);
     padding-bottom: calc(72 / 16 * 1rem);
   }
 
-  @include breakpoint(large) {
+  @media (width >= 1024px) {
     padding-top: calc(120 / 16 * 1rem);
     padding-bottom: calc(120 / 16 * 1rem);
   }
