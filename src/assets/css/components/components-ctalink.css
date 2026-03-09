@@ -3,7 +3,7 @@
 --------------------------------- */
 
 .c-ctalink {
-  padding-bottom: 6px;
+  padding-block-end: 6px;
 
   font-weight: 600;
   font-size: calc(14 / 16 * 1rem);
@@ -24,7 +24,7 @@
 
 .c-ctalink > svg {
   display: inline-block;
-  margin-left: var(--spacing-xxs);
+  margin-inline-start: var(--spacing-xxs);
   transform: translate3d(0, 0, 0);
   transition: transform 0.1s ease-out;
 }

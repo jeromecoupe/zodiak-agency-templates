@@ -3,7 +3,7 @@
 --------------------------------- */
 
 .c-categories {
-  margin-bottom: calc(42 / 16 * 1rem);
+  margin-block-end: calc(42 / 16 * 1rem);
 }
 
 .c-categories__title {
@@ -24,8 +24,7 @@
 
 .c-catlist__link {
   display: inline-block;
-  padding-top: calc(3 / 16 * 1rem);
-  padding-bottom: calc(3 / 16 * 1rem);
+  padding-block: calc(3 / 16 * 1rem);
   color: var(--color-text-offset);
   text-decoration: none;
 

@@ -31,8 +31,7 @@
 
 .c-mobilenav__link {
   display: inline-block;
-  padding-top: calc(3 / 16 * 1rem);
-  padding-bottom: calc(3 / 16 * 1rem);
+  padding-inline: calc(3 / 16 * 1rem);
   font-weight: 400;
   font-size: calc(26 / 16 * 1rem);
   line-height: calc(36 / 26);

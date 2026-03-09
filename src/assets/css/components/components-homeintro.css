@@ -3,11 +3,7 @@
 --------------------------------- */
 
 .c-homeintro {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr);
+  --homeintro-margin: 0;
 
-  @media (width >= 1024px) {
-    grid-template-columns: minmax(0, 54ch) minmax(0, 1fr);
-    column-gap: var(--gutter);
-  }
+  max-inline-size: 72ex;
 }

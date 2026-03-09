@@ -19,8 +19,7 @@
 }
 
 .c-mainnav__link {
-  padding-top: calc(6 / 16 * 1rem);
-  padding-bottom: calc(6 / 16 * 1rem);
+  padding-block: calc(6 / 16 * 1rem);
 
   font-family: var(--fontstack-alt);
   font-size: 1rem;
@@ -37,6 +36,6 @@
 }
 
 .c-mainnav__link.is-current {
-  padding-bottom: calc(4 / 16 * 1rem);
-  border-bottom: 2px solid var(--color-brand-bright);
+  padding-block-end: calc(4 / 16 * 1rem);
+  border-block-end: 2px solid var(--color-brand-bright);
 }

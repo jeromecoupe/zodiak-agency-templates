@@ -1,14 +1,13 @@
 /* ---------------------------------
-=margins
+=reset
 --------------------------------- */
-
-/*
-kill all top margins
-normalize bottom margins
-*/
 
 *,
 *::before,
 *::after {
-  margin-top: 0;
+  margin-block-start: 0;
+}
+
+address {
+  font-style: normal;
 }

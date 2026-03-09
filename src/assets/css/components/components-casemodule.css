@@ -3,9 +3,11 @@
 --------------------------------- */
 
 .c-casemodule + .c-casemodule {
-  margin-top: calc(42 / 16 * 1rem);
+  --casemodule-margin-start: calc(42 / 16 * 1rem);
+
+  margin-block-start: var(--casemodule-margin-start);
 
   @media (width >= 1024px) {
-    margin-top: calc(60 / 16 * 1rem);
+    --casemodule-margin-start: calc(60 / 16 * 1rem);
   }
 }

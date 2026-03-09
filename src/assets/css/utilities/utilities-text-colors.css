@@ -3,5 +3,5 @@
 --------------------------------- */
 
 .u-text-offset {
-  color: var(--color-text-offset) !important;
+  color: var(--color-text-offset);
 }

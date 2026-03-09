@@ -4,11 +4,11 @@
 
 .o-fluidimg {
   display: block;
-  max-width: 100%;
+  max-inline-size: 100%;
   height: auto;
   background-color: var(--color-gray6);
 }
 
 .o-fluidimg--full {
-  width: 100%;
+  inline-size: 100%;
 }

@@ -34,7 +34,10 @@
 .l-grid--auto {
   --grid-min-colsize: 280px;
 
-  grid-template-columns: repeat(auto-fit, minmax(min(var(--grid-min-colsize), 100%), 1fr));
+  grid-template-columns: repeat(
+      auto-fit,
+      minmax(min(var(--grid-min-colsize), 100%), 1fr)
+    );
 }
 
 /* ---------------------------------

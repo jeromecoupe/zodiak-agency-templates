@@ -3,7 +3,7 @@
 --------------------------------- */
 
 .c-figure {
-  margin: 0 0 1.5rem 0;
+  margin: 0 0 calc(24 / 16 * 1rem) 0;
   padding: 0;
 }
 

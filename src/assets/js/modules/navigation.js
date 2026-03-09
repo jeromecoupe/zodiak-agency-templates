@@ -1,20 +1,18 @@
-const SELECTORS = {
-  body: document.querySelector("body"),
-  menu: document.querySelector(".js-mobilemenu"),
-  triggers: document.querySelectorAll(".js-menutrigger"),
-};
+const body = document.querySelector("body");
+const mobilemenu = document.querySelector(".js-mobilemenu");
+const triggers = document.querySelectorAll(".js-menutrigger");
 
-const CLASSES = {
+const classes = {
   open: "is-open",
   active: "has-menu",
 };
 
 const init = () => {
-  SELECTORS.triggers.forEach((el) => {
+  triggers.forEach((el) => {
     el.addEventListener("click", (event) => {
       event.preventDefault();
-      SELECTORS.menu.classList.toggle(CLASSES.open);
-      SELECTORS.body.classList.toggle(CLASSES.active);
+      mobilemenu.classList.toggle(classes.open);
+      body.classList.toggle(classes.active);
     });
   });
 };
