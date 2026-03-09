@@ -11,7 +11,7 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  gap: var(--spacing-xxs);
+  gap: var(--spacing-2xs);
 }
 
 .c-socialmedia__link {
