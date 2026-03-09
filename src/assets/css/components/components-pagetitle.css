@@ -6,16 +6,17 @@
   font-weight: 600;
   font-size: clamp(
     calc(48 / 16 * 1rem),
-    calc(1rem + 7vw),
-    calc(132 / 16 * 1rem)
+    calc(1rem + 6vw),
+    calc(102 / 16 * 1rem)
   );
   line-height: 1.14;
-  max-width: 15ch;
+  max-width: 24ex;
   margin-bottom: 0.75em;
   color: var(--color-text-invert);
+  text-wrap: balance;
 
   @media (width >= 1024px) {
-    line-height: 1.08;
+    line-height: 1.02;
   }
 }
 
